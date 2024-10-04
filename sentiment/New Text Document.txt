@@ -1,0 +1,48 @@
+            accuracy,Mean Absolute Error,Mean Absolute Percentage Error,predictiton
+mlp title - 0.9896936414838482,263.08828125,0.010306358516151836%,25530.689453125
+mlp description- 0.9905866665395509, 240.493359375,0.00941333346044921%,25519.958984375
+lstm title- 0.9883917382049179,295.9484375,0.011608261795082092%,0.9883917382049179,25505.412109375
+lstm description - 0.9894191331093838,270.0265625,0.010580866890616256%,25521.18359375
+ gpt cocnclusion-
+Conclusion
+This research paper aimed to evaluate the effectiveness of two machine learning models, Multi-Layer Perceptron (MLP) and Long Short-Term Memory (LSTM), in predicting stock prices based on news headlines. The models were trained and tested on a dataset of stock prices and corresponding news headlines.
+
+Key Findings:
+
+MLP Model:
+Achieved an accuracy of 0.9896936414838482 for news titles.
+Achieved an accuracy of 0.9905866665395509 for news descriptions.
+Demonstrated strong performance in predicting stock prices based on news headlines.
+LSTM Model:
+Achieved an accuracy of 0.9883917382049179 for news titles.
+Achieved an accuracy of 0.9894191331093838 for news descriptions.
+Also exhibited good performance, but slightly lower than the MLP model.
+Overall:
+
+Both MLP and LSTM models demonstrated impressive accuracy in predicting stock prices based on news headlines. However, the MLP model consistently outperformed the LSTM model in terms of accuracy for both news titles and descriptions. This suggests that the MLP model's architecture and learning capabilities are more suitable for this particular task.
+
+Additional Analysis:
+
+Description Outperformance: Notably, the MLP model consistently achieved higher accuracy when using news descriptions compared to news titles. This indicates that the content of news descriptions provides more valuable information for predicting stock prices than the titles alone.
+
+
+Analyzing Model Performance
+Understanding the Metrics:
+
+Before we delve into the comparison, let's clarify the metrics used:
+
+Accuracy: While not strictly applicable for regression tasks like stock price prediction, it can provide a general sense of how well the model is predicting within a certain range.
+Mean Absolute Error (MAE): Measures the average absolute difference between predicted and actual values. Lower MAE indicates better predictions.
+Mean Absolute Percentage Error (MAPE): Measures the average absolute percentage difference between predicted and actual values. Lower MAPE indicates better predictions.
+Key Observations:
+
+Overall Accuracy: Both models exhibit high accuracy, suggesting they are effective in predicting stock prices.
+MAE and MAPE:
+MLP consistently outperforms LSTM in terms of both MAE and MAPE, indicating that it produces more accurate predictions.
+The lower MAE and MAPE values for the MLP model suggest that its predictions are closer to the actual values on average.
+Impact of News Content:
+Both models show similar performance differences between titles and descriptions.
+This suggests that the content of news descriptions provides additional valuable information for predicting stock prices.
+Conclusion:
+
+While both MLP and LSTM models demonstrate strong performance, the MLP model consistently outperforms the LSTM model in terms of accuracy, MAE, and MAPE. This suggests that the MLP architecture is better suited for this particular task of predicting stock prices based on news headlines.
